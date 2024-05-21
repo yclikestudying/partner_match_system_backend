@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.cqwu.mapper.FriendListMapper">
+
+    <resultMap id="BaseResultMap" type="cn.edu.cqwu.model.domain.FriendList">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="fromUserId" column="fromUserId" jdbcType="BIGINT"/>
+            <result property="toUserId" column="toUserId" jdbcType="BIGINT"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+            <result property="remark" column="remark" jdbcType="VARCHAR"/>
+            <result property="isDelete" column="isDelete" jdbcType="INTEGER"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,fromUserId,toUserId,
+        status,isDelete,createTime,
+        remark
+    </sql>
+</mapper>
