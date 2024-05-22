@@ -1,0 +1,30 @@
+<h1>项目介绍</h1>
+    帮助大家找到志同道合的伙伴的网站（APP风格）
+<h1>前端技术</h1>
+<ul>
+    <li>vue3</li>
+    <li>vantUI</li>
+    <li>vite</li>
+</ul>
+<h1>后端技术</h1>
+<ul>
+    <li>springboot</li>
+    <li>mybatisplus</li>
+    <li>mysql</li>
+</ul>
+<h1>项目功能</h1>
+<ul>
+    <li>登录注册功能</li>
+    <li>推荐相似用户功能</li>
+    <li>根据标签搜索用户功能</li>
+    <li>创建队伍功能</li>
+    <li>添加解散队伍功能</li>
+    <li>推荐队伍功能</li>
+    <li>一对一单聊功能</li>
+    <li>群聊功能</li>
+    <li>个人资料编辑功能</li>
+    <li>选择标签功能</li>  
+</ul>
+<p>访问地址：http://blog-yc.cn</p>
+<p>不适配web端，F12开发工具调整手机模式</p>
+
