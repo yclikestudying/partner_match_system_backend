@@ -29,11 +29,4 @@ mybatis-plus:
       logic-delete-value: 1 # 逻辑已删除值(默认为 1)
       logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
 
-tencent:
-  cos:
-    app-id: 1318575555
-    secret-id: AKIDzsZ2HNHyWwDIQXXL1azZzGVdXDk8NVQ8
-    secret-key: eBkHwedeZJrGXkokU1LRRNDvjRCurgJk
-    bucket-name: partner-files-1318575555
-    region-id: ap-chengdu
-    base-url: https://partner-files-1318575555.cos.ap-chengdu.myqcloud.com
+
